@@ -30,7 +30,11 @@ type Program() =
         builder
             .Services
             .AddMcpServer()
-            .WithHttpTransport()
+            .WithHttpTransport(fun httpOptions ->
+                // Configure Streamable HTTP transport (not deprecated SSE)
+                httpOptions.Stateless <- false  // Enable stateful sessions
+                httpOptions.IdleTimeout <- TimeSpan.FromMinutes(30.0)
+            )
             .WithTools<FsiMcpTools.FsiTools>()
         |> ignore
 
@@ -41,8 +45,8 @@ type Program() =
         // Configure middleware pipeline
         app.UseDeveloperExceptionPage() |> ignore
 
-        // Map MCP endpoints first (they use /mcp path prefix)
-        app.MapMcp() |> ignore
+        // Map MCP endpoints at /mcp
+        app.MapMcp("/mcp") |> ignore
             
         app.MapGet("/health", Func<string>(fun () -> "Ready to work!"))
         |> ignore
@@ -84,8 +88,8 @@ let createApp (args: string[]) (sessionId: string) =
           "   - GetFsiStatus: Get session info"
           ""
           "💡 Usage Modes:"
-          "   💬 Console: Type F# commands (streams via both MCP + SSE)"
-          "   🤖 MCP: Use tools (streams via both MCP + SSE)"
+          "   💬 Console: Type F# commands (streams via MCP Streamable HTTP)"
+          "   🤖 MCP: Use tools (streams via MCP Streamable HTTP)"
     ]
     status |> Seq.iter (printfn "%s")
     printfn "Press Ctrl+C to stop"

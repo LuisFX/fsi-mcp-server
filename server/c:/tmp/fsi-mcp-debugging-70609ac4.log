@@ -1,0 +1,769 @@
+2025-12-08 13:39:46.717 -08:00 [INF] FSI MCP Server starting with session ID: 70609ac4
+2025-12-08 13:39:46.934 -08:00 [DBG] FSI-START: StartFsi called with 2 args
+2025-12-08 13:39:46.940 -08:00 [DBG] FSI-START: Starting FSI with args: fsi --define:DEBUG
+2025-12-08 13:39:46.956 -08:00 [DBG] FSI-START: FSI process started with PID 86647
+2025-12-08 13:39:46.958 -08:00 [INF] 🚀 FSI started with input/output interception!
+2025-12-08 13:39:46.958 -08:00 [INF] ⚙️  FSI command: dotnet fsi --define:DEBUG
+2025-12-08 13:39:46.968 -08:00 [DBG] === CONSOLE STATE DIAGNOSTICS ===
+2025-12-08 13:39:46.968 -08:00 [DBG] Console.IsInputRedirected: false
+2025-12-08 13:39:46.968 -08:00 [DBG] Console.IsOutputRedirected: false
+2025-12-08 13:39:46.968 -08:00 [DBG] Console.IsErrorRedirected: false
+2025-12-08 13:39:46.968 -08:00 [DBG] =================================
+2025-12-08 13:39:46.968 -08:00 [INF] Console producer started
+2025-12-08 13:39:46.969 -08:00 [INF] FSI consumer started
+2025-12-08 13:39:46.969 -08:00 [DBG] CONSOLE-CONSUMER: FSI consumer task started
+2025-12-08 13:39:46.970 -08:00 [DBG] Hosting starting
+2025-12-08 13:39:46.983 -08:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-12-08 13:39:46.984 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-12-08 13:39:46.993 -08:00 [INF] Now listening on: http://0.0.0.0:5020
+2025-12-08 13:39:46.993 -08:00 [DBG] Loaded hosting startup assembly fsi-mcp-server
+2025-12-08 13:39:46.993 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-08 13:39:46.993 -08:00 [INF] Hosting environment: Production
+2025-12-08 13:39:46.993 -08:00 [INF] Content root path: /Users/luisfx/code/luisfx/fsi-mcp-server/server
+2025-12-08 13:39:46.994 -08:00 [DBG] Hosting started
+2025-12-08 13:39:58.799 -08:00 [DBG] Connection id "0HNHMK9AVCBOR" accepted.
+2025-12-08 13:39:58.799 -08:00 [DBG] Connection id "0HNHMK9AVCBOS" accepted.
+2025-12-08 13:39:58.799 -08:00 [DBG] Connection id "0HNHMK9AVCBOS" started.
+2025-12-08 13:39:58.799 -08:00 [DBG] Connection id "0HNHMK9AVCBOR" started.
+2025-12-08 13:39:58.826 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 127
+2025-12-08 13:39:58.826 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 127
+2025-12-08 13:39:58.848 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:39:58.848 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:39:58.848 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:39:58.848 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:39:58.850 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:39:58.850 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:39:58.867 -08:00 [INF] Setting HTTP status code 404.
+2025-12-08 13:39:58.867 -08:00 [INF] Setting HTTP status code 404.
+2025-12-08 13:39:58.867 -08:00 [INF] Writing value of type 'JsonRpcError' as Json.
+2025-12-08 13:39:58.867 -08:00 [INF] Writing value of type 'JsonRpcError' as Json.
+2025-12-08 13:39:58.874 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:39:58.874 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:39:58.874 -08:00 [DBG] Connection id "0HNHMK9AVCBOR" completed keep alive response.
+2025-12-08 13:39:58.875 -08:00 [DBG] Connection id "0HNHMK9AVCBOS" completed keep alive response.
+2025-12-08 13:39:58.875 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 404 null application/json; charset=utf-8 50.2458ms
+2025-12-08 13:39:58.875 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 404 null application/json; charset=utf-8 50.2487ms
+2025-12-08 13:39:58.882 -08:00 [DBG] Connection id "0HNHMK9AVCBOR", Request id "0HNHMK9AVCBOR:00000001": started reading request body.
+2025-12-08 13:39:58.882 -08:00 [DBG] Connection id "0HNHMK9AVCBOS", Request id "0HNHMK9AVCBOS:00000001": started reading request body.
+2025-12-08 13:39:58.883 -08:00 [DBG] Connection id "0HNHMK9AVCBOS", Request id "0HNHMK9AVCBOS:00000001": done reading request body.
+2025-12-08 13:39:58.883 -08:00 [DBG] Connection id "0HNHMK9AVCBOR", Request id "0HNHMK9AVCBOR:00000001": done reading request body.
+2025-12-08 13:40:02.883 -08:00 [DBG] Connection id "0HNHMK9AVCBOR" received FIN.
+2025-12-08 13:40:02.883 -08:00 [DBG] Connection id "0HNHMK9AVCBOS" received FIN.
+2025-12-08 13:40:02.886 -08:00 [DBG] Connection id "0HNHMK9AVCBOR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:40:02.886 -08:00 [DBG] Connection id "0HNHMK9AVCBOS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:40:02.891 -08:00 [DBG] Connection id "0HNHMK9AVCBOR" disconnecting.
+2025-12-08 13:40:02.891 -08:00 [DBG] Connection id "0HNHMK9AVCBOS" disconnecting.
+2025-12-08 13:40:02.892 -08:00 [DBG] Connection id "0HNHMK9AVCBOS" stopped.
+2025-12-08 13:40:02.892 -08:00 [DBG] Connection id "0HNHMK9AVCBOR" stopped.
+2025-12-08 13:40:09.199 -08:00 [DBG] Connection id "0HNHMK9AVCBOT" accepted.
+2025-12-08 13:40:09.200 -08:00 [DBG] Connection id "0HNHMK9AVCBOT" started.
+2025-12-08 13:40:09.200 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 172
+2025-12-08 13:40:09.202 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:40:09.202 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.202 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.247 -08:00 [DBG] Connection id "0HNHMK9AVCBOT", Request id "0HNHMK9AVCBOT:00000001": started reading request body.
+2025-12-08 13:40:09.247 -08:00 [DBG] Connection id "0HNHMK9AVCBOT", Request id "0HNHMK9AVCBOT:00000001": done reading request body.
+2025-12-08 13:40:09.261 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0) read JsonRpcRequest message from channel.
+2025-12-08 13:40:09.264 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0) method 'initialize' request handler called.
+2025-12-08 13:40:09.268 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'initialize' request handler completed.
+2025-12-08 13:40:09.269 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:40:09.277 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.277 -08:00 [DBG] Connection id "0HNHMK9AVCBOT" completed keep alive response.
+2025-12-08 13:40:09.277 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 76.6507ms
+2025-12-08 13:40:09.302 -08:00 [DBG] Connection id "0HNHMK9AVCBOU" accepted.
+2025-12-08 13:40:09.302 -08:00 [DBG] Connection id "0HNHMK9AVCBOU" started.
+2025-12-08 13:40:09.302 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 54
+2025-12-08 13:40:09.302 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:40:09.302 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.302 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.302 -08:00 [DBG] Connection id "0HNHMK9AVCBOU", Request id "0HNHMK9AVCBOU:00000001": started reading request body.
+2025-12-08 13:40:09.302 -08:00 [DBG] Connection id "0HNHMK9AVCBOU", Request id "0HNHMK9AVCBOU:00000001": done reading request body.
+2025-12-08 13:40:09.304 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.304 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcNotification message from channel.
+2025-12-08 13:40:09.304 -08:00 [DBG] Connection id "0HNHMK9AVCBOU" completed keep alive response.
+2025-12-08 13:40:09.304 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 202 0 null 1.9291ms
+2025-12-08 13:40:09.329 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/mcp - null null
+2025-12-08 13:40:09.329 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:40:09.329 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:40:09.329 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:40:09.359 -08:00 [DBG] Connection id "0HNHMK9AVCBOV" accepted.
+2025-12-08 13:40:09.359 -08:00 [DBG] Connection id "0HNHMK9AVCBOV" started.
+2025-12-08 13:40:09.359 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 46
+2025-12-08 13:40:09.359 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:40:09.359 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.359 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.359 -08:00 [DBG] Connection id "0HNHMK9AVCBOV", Request id "0HNHMK9AVCBOV:00000001": started reading request body.
+2025-12-08 13:40:09.359 -08:00 [DBG] Connection id "0HNHMK9AVCBOV", Request id "0HNHMK9AVCBOV:00000001": done reading request body.
+2025-12-08 13:40:09.360 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:40:09.360 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/list' request handler called.
+2025-12-08 13:40:09.365 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/list' request handler completed.
+2025-12-08 13:40:09.365 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:40:09.366 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:40:09.366 -08:00 [DBG] Connection id "0HNHMK9AVCBOV" completed keep alive response.
+2025-12-08 13:40:09.366 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 7.0554ms
+2025-12-08 13:40:13.378 -08:00 [DBG] Connection id "0HNHMK9AVCBOU" received FIN.
+2025-12-08 13:40:13.378 -08:00 [DBG] Connection id "0HNHMK9AVCBOU" disconnecting.
+2025-12-08 13:40:13.378 -08:00 [DBG] Connection id "0HNHMK9AVCBOU" stopped.
+2025-12-08 13:40:13.379 -08:00 [DBG] Connection id "0HNHMK9AVCBOU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:40:13.379 -08:00 [DBG] Connection id "0HNHMK9AVCBOV" received FIN.
+2025-12-08 13:40:13.379 -08:00 [DBG] Connection id "0HNHMK9AVCBOV" disconnecting.
+2025-12-08 13:40:13.379 -08:00 [DBG] Connection id "0HNHMK9AVCBOV" stopped.
+2025-12-08 13:40:13.379 -08:00 [DBG] Connection id "0HNHMK9AVCBOV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:41:02.619 -08:00 [DBG] Connection id "0HNHMK9AVCBP0" accepted.
+2025-12-08 13:41:02.620 -08:00 [DBG] Connection id "0HNHMK9AVCBP0" started.
+2025-12-08 13:41:02.622 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 162
+2025-12-08 13:41:02.622 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:41:02.622 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:02.622 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:02.623 -08:00 [DBG] Connection id "0HNHMK9AVCBP0", Request id "0HNHMK9AVCBP0:00000001": started reading request body.
+2025-12-08 13:41:02.623 -08:00 [DBG] Connection id "0HNHMK9AVCBP0", Request id "0HNHMK9AVCBP0:00000001": done reading request body.
+2025-12-08 13:41:02.623 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:41:02.623 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:41:02.633 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:41:02.633 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:41:02.633 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:02.633 -08:00 [DBG] Connection id "0HNHMK9AVCBP0" completed keep alive response.
+2025-12-08 13:41:02.633 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 11.6792ms
+2025-12-08 13:41:06.681 -08:00 [DBG] Connection id "0HNHMK9AVCBP0" received FIN.
+2025-12-08 13:41:06.682 -08:00 [DBG] Connection id "0HNHMK9AVCBP0" disconnecting.
+2025-12-08 13:41:06.682 -08:00 [DBG] Connection id "0HNHMK9AVCBP0" stopped.
+2025-12-08 13:41:06.682 -08:00 [DBG] Connection id "0HNHMK9AVCBP0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:41:14.211 -08:00 [DBG] Connection id "0HNHMK9AVCBP1" accepted.
+2025-12-08 13:41:14.212 -08:00 [DBG] Connection id "0HNHMK9AVCBP1" started.
+2025-12-08 13:41:14.218 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 492
+2025-12-08 13:41:14.218 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:41:14.218 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:14.218 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:14.218 -08:00 [DBG] Connection id "0HNHMK9AVCBP1", Request id "0HNHMK9AVCBP1:00000001": started reading request body.
+2025-12-08 13:41:14.219 -08:00 [DBG] Connection id "0HNHMK9AVCBP1", Request id "0HNHMK9AVCBP1:00000001": done reading request body.
+2025-12-08 13:41:14.219 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:41:14.219 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:41:14.223 -08:00 [DBG] MCP-TOOL: SendFSharpCode called by test-agent: // Create a simple factorial function
+let rec factorial n =
+    if n <= 1 then 1
+    else n * factorial (n - 1);;
+
+// Test the function with a few values
+let test1 = factorial 5;;
+let test2 = factorial 10;;
+printfn "Factorial of 5: %d" test1;;
+printfn "Factorial of 10: %d" test2;;
+2025-12-08 13:41:14.223 -08:00 [DBG] FSI-INPUT: SendToFsi from api:test-agent: // Create a simple factorial function
+let rec factorial n =
+    if n <= 1 then 1
+    else n * factorial (n - 1);;
+
+// Test the function with a few values
+let test1 = factorial 5;;
+let test2 = factorial 10;;
+printfn "Factorial of 5: %d" test1;;
+printfn "Factorial of 10: %d" test2;;
+2025-12-08 13:41:14.227 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: // Create a simple factorial function
+let rec factorial n =
+    if n <= 1 then 1
+    else n * factorial (n - 1);;
+
+// Test the function with a few values
+let test1 = factorial 5;;
+let test2 = factorial 10;;
+printfn "Factorial of 5: %d" test1;;
+printfn "Factorial of 10: %d" test2;;
+2025-12-08 13:41:14.227 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-08 13:41:14.227 -08:00 [DBG] MCP-TOOL: SendFSharpCode succeeded: Code sent to FSI and logged
+2025-12-08 13:41:14.227 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:41:14.227 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:41:14.227 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:14.227 -08:00 [DBG] Connection id "0HNHMK9AVCBP1" completed keep alive response.
+2025-12-08 13:41:14.227 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 9.8596ms
+2025-12-08 13:41:18.275 -08:00 [DBG] Connection id "0HNHMK9AVCBP1" received FIN.
+2025-12-08 13:41:18.276 -08:00 [DBG] Connection id "0HNHMK9AVCBP1" disconnecting.
+2025-12-08 13:41:18.276 -08:00 [DBG] Connection id "0HNHMK9AVCBP1" stopped.
+2025-12-08 13:41:18.276 -08:00 [DBG] Connection id "0HNHMK9AVCBP1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:41:28.358 -08:00 [DBG] Connection id "0HNHMK9AVCBP2" accepted.
+2025-12-08 13:41:28.358 -08:00 [DBG] Connection id "0HNHMK9AVCBP2" started.
+2025-12-08 13:41:28.359 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 514
+2025-12-08 13:41:28.359 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:41:28.359 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:28.359 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:28.359 -08:00 [DBG] Connection id "0HNHMK9AVCBP2", Request id "0HNHMK9AVCBP2:00000001": started reading request body.
+2025-12-08 13:41:28.359 -08:00 [DBG] Connection id "0HNHMK9AVCBP2", Request id "0HNHMK9AVCBP2:00000001": done reading request body.
+2025-12-08 13:41:28.359 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:41:28.359 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:41:28.359 -08:00 [DBG] MCP-TOOL: SendFSharpCode called by test-agent: // Create a simple list processing function
+let numbers = [1..10];;
+let doubled = List.map (fun x -> x * 2) numbers;;
+printfn "Original: %A" numbers;;
+printfn "Doubled: %A" doubled;;
+
+// Test with a filter
+let evens = List.filter (fun x -> x % 2 = 0) doubled;;
+printfn "Even doubled values: %A" evens;;
+2025-12-08 13:41:28.359 -08:00 [DBG] FSI-INPUT: SendToFsi from api:test-agent: // Create a simple list processing function
+let numbers = [1..10];;
+let doubled = List.map (fun x -> x * 2) numbers;;
+printfn "Original: %A" numbers;;
+printfn "Doubled: %A" doubled;;
+
+// Test with a filter
+let evens = List.filter (fun x -> x % 2 = 0) doubled;;
+printfn "Even doubled values: %A" evens;;
+2025-12-08 13:41:28.359 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: // Create a simple list processing function
+let numbers = [1..10];;
+let doubled = List.map (fun x -> x * 2) numbers;;
+printfn "Original: %A" numbers;;
+printfn "Doubled: %A" doubled;;
+
+// Test with a filter
+let evens = List.filter (fun x -> x % 2 = 0) doubled;;
+printfn "Even doubled values: %A" evens;;
+2025-12-08 13:41:28.359 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-08 13:41:28.359 -08:00 [DBG] MCP-TOOL: SendFSharpCode succeeded: Code sent to FSI and logged
+2025-12-08 13:41:28.360 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:41:28.360 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:41:28.360 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:28.360 -08:00 [DBG] Connection id "0HNHMK9AVCBP2" completed keep alive response.
+2025-12-08 13:41:28.360 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 1.1884ms
+2025-12-08 13:41:32.409 -08:00 [DBG] Connection id "0HNHMK9AVCBP2" received FIN.
+2025-12-08 13:41:32.410 -08:00 [DBG] Connection id "0HNHMK9AVCBP2" disconnecting.
+2025-12-08 13:41:32.410 -08:00 [DBG] Connection id "0HNHMK9AVCBP2" stopped.
+2025-12-08 13:41:32.410 -08:00 [DBG] Connection id "0HNHMK9AVCBP2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:41:48.884 -08:00 [DBG] Connection id "0HNHMK9AVCBP3" accepted.
+2025-12-08 13:41:48.885 -08:00 [DBG] Connection id "0HNHMK9AVCBP3" started.
+2025-12-08 13:41:48.886 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 179
+2025-12-08 13:41:48.887 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:41:48.887 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:48.887 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:48.888 -08:00 [DBG] Connection id "0HNHMK9AVCBP3", Request id "0HNHMK9AVCBP3:00000001": started reading request body.
+2025-12-08 13:41:48.888 -08:00 [DBG] Connection id "0HNHMK9AVCBP3", Request id "0HNHMK9AVCBP3:00000001": done reading request body.
+2025-12-08 13:41:48.888 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:41:48.889 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:41:48.901 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:41:48.901 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:41:48.901 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:41:48.901 -08:00 [DBG] Connection id "0HNHMK9AVCBP3" completed keep alive response.
+2025-12-08 13:41:48.901 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 15.274ms
+2025-12-08 13:41:52.952 -08:00 [DBG] Connection id "0HNHMK9AVCBP3" received FIN.
+2025-12-08 13:41:52.952 -08:00 [DBG] Connection id "0HNHMK9AVCBP3" disconnecting.
+2025-12-08 13:41:52.953 -08:00 [DBG] Connection id "0HNHMK9AVCBP3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:41:52.953 -08:00 [DBG] Connection id "0HNHMK9AVCBP3" stopped.
+2025-12-08 13:43:48.703 -08:00 [DBG] Connection id "0HNHMK9AVCBP4" accepted.
+2025-12-08 13:43:48.707 -08:00 [DBG] Connection id "0HNHMK9AVCBP4" started.
+2025-12-08 13:43:48.708 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 236
+2025-12-08 13:43:48.708 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:43:48.708 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:43:48.708 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:43:48.708 -08:00 [DBG] Connection id "0HNHMK9AVCBP4", Request id "0HNHMK9AVCBP4:00000001": started reading request body.
+2025-12-08 13:43:48.708 -08:00 [DBG] Connection id "0HNHMK9AVCBP4", Request id "0HNHMK9AVCBP4:00000001": done reading request body.
+2025-12-08 13:43:48.709 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:43:48.709 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:43:48.712 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:43:48.712 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:43:48.713 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:43:48.713 -08:00 [DBG] Connection id "0HNHMK9AVCBP4" completed keep alive response.
+2025-12-08 13:43:48.713 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 4.8074ms
+2025-12-08 13:43:52.761 -08:00 [DBG] Connection id "0HNHMK9AVCBP4" received FIN.
+2025-12-08 13:43:52.761 -08:00 [DBG] Connection id "0HNHMK9AVCBP4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:43:52.761 -08:00 [DBG] Connection id "0HNHMK9AVCBP4" disconnecting.
+2025-12-08 13:43:52.763 -08:00 [DBG] Connection id "0HNHMK9AVCBP4" stopped.
+2025-12-08 13:43:55.327 -08:00 [DBG] Connection id "0HNHMK9AVCBP5" accepted.
+2025-12-08 13:43:55.327 -08:00 [DBG] Connection id "0HNHMK9AVCBP5" started.
+2025-12-08 13:43:55.327 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 195
+2025-12-08 13:43:55.327 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:43:55.327 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:43:55.327 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:43:55.328 -08:00 [DBG] Connection id "0HNHMK9AVCBP5", Request id "0HNHMK9AVCBP5:00000001": started reading request body.
+2025-12-08 13:43:55.328 -08:00 [DBG] Connection id "0HNHMK9AVCBP5", Request id "0HNHMK9AVCBP5:00000001": done reading request body.
+2025-12-08 13:43:55.328 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:43:55.328 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:43:55.329 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:43:55.329 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:43:55.330 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:43:55.330 -08:00 [DBG] Connection id "0HNHMK9AVCBP5" completed keep alive response.
+2025-12-08 13:43:55.330 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 2.31ms
+2025-12-08 13:43:59.384 -08:00 [DBG] Connection id "0HNHMK9AVCBP5" received FIN.
+2025-12-08 13:43:59.385 -08:00 [DBG] Connection id "0HNHMK9AVCBP5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:43:59.385 -08:00 [DBG] Connection id "0HNHMK9AVCBP5" disconnecting.
+2025-12-08 13:43:59.385 -08:00 [DBG] Connection id "0HNHMK9AVCBP5" stopped.
+2025-12-08 13:44:18.460 -08:00 [DBG] Connection id "0HNHMK9AVCBP6" accepted.
+2025-12-08 13:44:18.460 -08:00 [DBG] Connection id "0HNHMK9AVCBP6" started.
+2025-12-08 13:44:18.460 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 1173
+2025-12-08 13:44:18.460 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:44:18.460 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:44:18.461 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:44:18.461 -08:00 [DBG] Connection id "0HNHMK9AVCBP6", Request id "0HNHMK9AVCBP6:00000001": started reading request body.
+2025-12-08 13:44:18.461 -08:00 [DBG] Connection id "0HNHMK9AVCBP6", Request id "0HNHMK9AVCBP6:00000001": done reading request body.
+2025-12-08 13:44:18.462 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:44:18.462 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:44:18.462 -08:00 [DBG] MCP-TOOL: SendFSharpCode called by tic-tac-toe: // Tic-Tac-Toe Game - Loading types and functions
+
+type Player = X | O;;
+
+type Cell = Empty | Filled of Player;;
+
+type Board = Cell array array;;
+
+type GameState =
+    | InProgress of Player
+    | Won of Player
+    | Draw;;
+
+let createBoard() : Board =
+    Array.init 3 (fun _ -> Array.create 3 Empty);;
+
+let cellToString cell =
+    match cell with
+    | Empty -> " "
+    | Filled X -> "X"
+    | Filled O -> "O";;
+
+let displayBoard (board: Board) =
+    printfn "\n  1   2   3"
+    printfn "┌───┬───┬───┐"
+    for i in 0..2 do
+        printf "%c " (char (65 + i))
+        for j in 0..2 do
+            printf "│ %s " (cellToString board.[i].[j])
+        printfn "│"
+        if i < 2 then
+            printfn "├───┼───┼───┤"
+    printfn "└───┴───┴───┘";;
+
+// Test the board display
+let testBoard = createBoard();;
+displayBoard testBoard;;
+2025-12-08 13:44:18.462 -08:00 [DBG] FSI-INPUT: SendToFsi from api:tic-tac-toe: // Tic-Tac-Toe Game - Loading types and functions
+
+type Player = X | O;;
+
+type Cell = Empty | Filled of Player;;
+
+type Board = Cell array array;;
+
+type GameState =
+    | InProgress of Player
+    | Won of Player
+    | Draw;;
+
+let createBoard() : Board =
+    Array.init 3 (fun _ -> Array.create 3 Empty);;
+
+let cellToString cell =
+    match cell with
+    | Empty -> " "
+    | Filled X -> "X"
+    | Filled O -> "O";;
+
+let displayBoard (board: Board) =
+    printfn "\n  1   2   3"
+    printfn "┌───┬───┬───┐"
+    for i in 0..2 do
+        printf "%c " (char (65 + i))
+        for j in 0..2 do
+            printf "│ %s " (cellToString board.[i].[j])
+        printfn "│"
+        if i < 2 then
+            printfn "├───┼───┼───┤"
+    printfn "└───┴───┴───┘";;
+
+// Test the board display
+let testBoard = createBoard();;
+displayBoard testBoard;;
+2025-12-08 13:44:18.462 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: // Tic-Tac-Toe Game - Loading types and functions
+
+type Player = X | O;;
+
+type Cell = Empty | Filled of Player;;
+
+type Board = Cell array array;;
+
+type GameState =
+    | InProgress of Player
+    | Won of Player
+    | Draw;;
+
+let createBoard() : Board =
+    Array.init 3 (fun _ -> Array.create 3 Empty);;
+
+let cellToString cell =
+    match cell with
+    | Empty -> " "
+    | Filled X -> "X"
+    | Filled O -> "O";;
+
+let displayBoard (board: Board) =
+    printfn "\n  1   2   3"
+    printfn "┌───┬───┬───┐"
+    for i in 0..2 do
+        printf "%c " (char (65 + i))
+        for j in 0..2 do
+            printf "│ %s " (cellToString board.[i].[j])
+        printfn "│"
+        if i < 2 then
+            printfn "├───┼───┼───┤"
+    printfn "└───┴───┴───┘";;
+
+// Test the board display
+let testBoard = createBoard();;
+displayBoard testBoard;;
+2025-12-08 13:44:18.462 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-08 13:44:18.462 -08:00 [DBG] MCP-TOOL: SendFSharpCode succeeded: Code sent to FSI and logged
+2025-12-08 13:44:18.463 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:44:18.463 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:44:18.463 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:44:18.463 -08:00 [DBG] Connection id "0HNHMK9AVCBP6" completed keep alive response.
+2025-12-08 13:44:18.463 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 2.5713ms
+2025-12-08 13:44:22.528 -08:00 [DBG] Connection id "0HNHMK9AVCBP6" received FIN.
+2025-12-08 13:44:22.530 -08:00 [DBG] Connection id "0HNHMK9AVCBP6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:44:22.530 -08:00 [DBG] Connection id "0HNHMK9AVCBP6" disconnecting.
+2025-12-08 13:44:22.530 -08:00 [DBG] Connection id "0HNHMK9AVCBP6" stopped.
+2025-12-08 13:44:43.884 -08:00 [DBG] Connection id "0HNHMK9AVCBP7" accepted.
+2025-12-08 13:44:43.884 -08:00 [DBG] Connection id "0HNHMK9AVCBP7" started.
+2025-12-08 13:44:43.884 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 178
+2025-12-08 13:44:43.884 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:44:43.884 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:44:43.885 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:44:43.885 -08:00 [DBG] Connection id "0HNHMK9AVCBP7", Request id "0HNHMK9AVCBP7:00000001": started reading request body.
+2025-12-08 13:44:43.885 -08:00 [DBG] Connection id "0HNHMK9AVCBP7", Request id "0HNHMK9AVCBP7:00000001": done reading request body.
+2025-12-08 13:44:43.885 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:44:43.885 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:44:43.886 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:44:43.886 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:44:43.886 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:44:43.886 -08:00 [DBG] Connection id "0HNHMK9AVCBP7" completed keep alive response.
+2025-12-08 13:44:43.886 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 1.6096ms
+2025-12-08 13:44:47.947 -08:00 [DBG] Connection id "0HNHMK9AVCBP7" received FIN.
+2025-12-08 13:44:47.947 -08:00 [DBG] Connection id "0HNHMK9AVCBP7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:44:47.947 -08:00 [DBG] Connection id "0HNHMK9AVCBP7" disconnecting.
+2025-12-08 13:44:47.947 -08:00 [DBG] Connection id "0HNHMK9AVCBP7" stopped.
+2025-12-08 13:45:10.313 -08:00 [DBG] Connection id "0HNHMK9AVCBOT" received FIN.
+2025-12-08 13:45:10.314 -08:00 [DBG] Connection id "0HNHMK9AVCBOT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:45:10.315 -08:00 [DBG] Connection id "0HNHMK9AVCBOT" disconnecting.
+2025-12-08 13:45:10.321 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:45:10.321 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/mcp - 200 null text/event-stream 300988.9001ms
+2025-12-08 13:45:10.321 -08:00 [DBG] Connection id "0HNHMK9AVCBOT" stopped.
+2025-12-08 13:45:11.394 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" accepted.
+2025-12-08 13:45:11.395 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" started.
+2025-12-08 13:45:11.396 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/mcp - null null
+2025-12-08 13:45:11.397 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:45:11.397 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:45:11.397 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:45:11.398 -08:00 [INF] Setting HTTP status code 400.
+2025-12-08 13:45:11.399 -08:00 [INF] Writing value of type 'JsonRpcError' as Json.
+2025-12-08 13:45:11.399 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:45:11.399 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" completed keep alive response.
+2025-12-08 13:45:11.399 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/mcp - 400 null application/json; charset=utf-8 3.1287ms
+2025-12-08 13:45:12.964 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/mcp - null null
+2025-12-08 13:45:12.964 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:45:12.964 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:45:12.964 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:45:12.964 -08:00 [INF] Setting HTTP status code 400.
+2025-12-08 13:45:12.964 -08:00 [INF] Writing value of type 'JsonRpcError' as Json.
+2025-12-08 13:45:12.964 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: GET /mcp/'
+2025-12-08 13:45:12.964 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" completed keep alive response.
+2025-12-08 13:45:12.964 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/mcp - 400 null application/json; charset=utf-8 0.7265ms
+2025-12-08 13:45:16.971 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" received FIN.
+2025-12-08 13:45:16.971 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" disconnecting.
+2025-12-08 13:45:16.971 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" stopped.
+2025-12-08 13:45:16.971 -08:00 [DBG] Connection id "0HNHMK9AVCBP8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:45:22.363 -08:00 [DBG] Connection id "0HNHMK9AVCBP9" accepted.
+2025-12-08 13:45:22.363 -08:00 [DBG] Connection id "0HNHMK9AVCBP9" started.
+2025-12-08 13:45:22.363 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 1605
+2025-12-08 13:45:22.363 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:45:22.363 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:22.363 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:22.363 -08:00 [DBG] Connection id "0HNHMK9AVCBP9", Request id "0HNHMK9AVCBP9:00000001": started reading request body.
+2025-12-08 13:45:22.363 -08:00 [DBG] Connection id "0HNHMK9AVCBP9", Request id "0HNHMK9AVCBP9:00000001": done reading request body.
+2025-12-08 13:45:22.363 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:45:22.363 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:45:22.364 -08:00 [DBG] MCP-TOOL: SendFSharpCode called by tic-tac-toe: // Load remaining game functions
+
+let parseMove (input: string) =
+    if input.Length <> 2 then
+        None
+    else
+        let row = int input.[0] - int 'A'
+        let col = int input.[1] - int '1'
+        if row >= 0 && row <= 2 && col >= 0 && col <= 2 then
+            Some (row, col)
+        else
+            None;;
+
+let isValidMove (board: Board) row col =
+    board.[row].[col] = Empty;;
+
+let makeMove (board: Board) row col player =
+    let newBoard = Array.map Array.copy board
+    newBoard.[row].[col] <- Filled player
+    newBoard;;
+
+let checkLine (board: Board) (positions: (int * int) list) =
+    let cells = positions |> List.map (fun (r, c) -> board.[r].[c])
+    match cells with
+    | [Filled p1; Filled p2; Filled p3] when p1 = p2 && p2 = p3 -> Some p1
+    | _ -> None;;
+
+let checkWinner (board: Board) =
+    let lines = [
+        // Rows
+        [(0,0); (0,1); (0,2)]
+        [(1,0); (1,1); (1,2)]
+        [(2,0); (2,1); (2,2)]
+        // Columns
+        [(0,0); (1,0); (2,0)]
+        [(0,1); (1,1); (2,1)]
+        [(0,2); (1,2); (2,2)]
+        // Diagonals
+        [(0,0); (1,1); (2,2)]
+        [(0,2); (1,1); (2,0)]
+    ]
+    lines |> List.tryPick (checkLine board);;
+
+let isBoardFull (board: Board) =
+    board |> Array.forall (Array.forall ((<>) Empty));;
+
+let switchPlayer player =
+    match player with
+    | X -> O
+    | O -> X;;
+2025-12-08 13:45:22.364 -08:00 [DBG] FSI-INPUT: SendToFsi from api:tic-tac-toe: // Load remaining game functions
+
+let parseMove (input: string) =
+    if input.Length <> 2 then
+        None
+    else
+        let row = int input.[0] - int 'A'
+        let col = int input.[1] - int '1'
+        if row >= 0 && row <= 2 && col >= 0 && col <= 2 then
+            Some (row, col)
+        else
+            None;;
+
+let isValidMove (board: Board) row col =
+    board.[row].[col] = Empty;;
+
+let makeMove (board: Board) row col player =
+    let newBoard = Array.map Array.copy board
+    newBoard.[row].[col] <- Filled player
+    newBoard;;
+
+let checkLine (board: Board) (positions: (int * int) list) =
+    let cells = positions |> List.map (fun (r, c) -> board.[r].[c])
+    match cells with
+    | [Filled p1; Filled p2; Filled p3] when p1 = p2 && p2 = p3 -> Some p1
+    | _ -> None;;
+
+let checkWinner (board: Board) =
+    let lines = [
+        // Rows
+        [(0,0); (0,1); (0,2)]
+        [(1,0); (1,1); (1,2)]
+        [(2,0); (2,1); (2,2)]
+        // Columns
+        [(0,0); (1,0); (2,0)]
+        [(0,1); (1,1); (2,1)]
+        [(0,2); (1,2); (2,2)]
+        // Diagonals
+        [(0,0); (1,1); (2,2)]
+        [(0,2); (1,1); (2,0)]
+    ]
+    lines |> List.tryPick (checkLine board);;
+
+let isBoardFull (board: Board) =
+    board |> Array.forall (Array.forall ((<>) Empty));;
+
+let switchPlayer player =
+    match player with
+    | X -> O
+    | O -> X;;
+2025-12-08 13:45:22.364 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: // Load remaining game functions
+
+let parseMove (input: string) =
+    if input.Length <> 2 then
+        None
+    else
+        let row = int input.[0] - int 'A'
+        let col = int input.[1] - int '1'
+        if row >= 0 && row <= 2 && col >= 0 && col <= 2 then
+            Some (row, col)
+        else
+            None;;
+
+let isValidMove (board: Board) row col =
+    board.[row].[col] = Empty;;
+
+let makeMove (board: Board) row col player =
+    let newBoard = Array.map Array.copy board
+    newBoard.[row].[col] <- Filled player
+    newBoard;;
+
+let checkLine (board: Board) (positions: (int * int) list) =
+    let cells = positions |> List.map (fun (r, c) -> board.[r].[c])
+    match cells with
+    | [Filled p1; Filled p2; Filled p3] when p1 = p2 && p2 = p3 -> Some p1
+    | _ -> None;;
+
+let checkWinner (board: Board) =
+    let lines = [
+        // Rows
+        [(0,0); (0,1); (0,2)]
+        [(1,0); (1,1); (1,2)]
+        [(2,0); (2,1); (2,2)]
+        // Columns
+        [(0,0); (1,0); (2,0)]
+        [(0,1); (1,1); (2,1)]
+        [(0,2); (1,2); (2,2)]
+        // Diagonals
+        [(0,0); (1,1); (2,2)]
+        [(0,2); (1,1); (2,0)]
+    ]
+    lines |> List.tryPick (checkLine board);;
+
+let isBoardFull (board: Board) =
+    board |> Array.forall (Array.forall ((<>) Empty));;
+
+let switchPlayer player =
+    match player with
+    | X -> O
+    | O -> X;;
+2025-12-08 13:45:22.364 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-08 13:45:22.364 -08:00 [DBG] MCP-TOOL: SendFSharpCode succeeded: Code sent to FSI and logged
+2025-12-08 13:45:22.364 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:45:22.364 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:45:22.364 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:22.364 -08:00 [DBG] Connection id "0HNHMK9AVCBP9" completed keep alive response.
+2025-12-08 13:45:22.364 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 1.6605ms
+2025-12-08 13:45:26.435 -08:00 [DBG] Connection id "0HNHMK9AVCBP9" received FIN.
+2025-12-08 13:45:26.435 -08:00 [DBG] Connection id "0HNHMK9AVCBP9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:45:26.435 -08:00 [DBG] Connection id "0HNHMK9AVCBP9" disconnecting.
+2025-12-08 13:45:26.437 -08:00 [DBG] Connection id "0HNHMK9AVCBP9" stopped.
+2025-12-08 13:45:34.116 -08:00 [DBG] Connection id "0HNHMK9AVCBPA" accepted.
+2025-12-08 13:45:34.116 -08:00 [DBG] Connection id "0HNHMK9AVCBPA" started.
+2025-12-08 13:45:34.117 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 1141
+2025-12-08 13:45:34.118 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:45:34.118 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:34.118 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:34.118 -08:00 [DBG] Connection id "0HNHMK9AVCBPA", Request id "0HNHMK9AVCBPA:00000001": started reading request body.
+2025-12-08 13:45:34.118 -08:00 [DBG] Connection id "0HNHMK9AVCBPA", Request id "0HNHMK9AVCBPA:00000001": done reading request body.
+2025-12-08 13:45:34.119 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:45:34.119 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:45:34.119 -08:00 [DBG] MCP-TOOL: SendFSharpCode called by tic-tac-toe: // Simulate a game to demonstrate it works
+printfn "\n=== Simulating a Tic-Tac-Toe Game ===";;
+
+let mutable gameBoard = createBoard();;
+let moves = [
+    ("A1", X); ("B2", X); ("C3", X)  // X wins diagonally
+];;
+
+printfn "Starting game...";;
+displayBoard gameBoard;;
+
+// Make moves programmatically
+for (moveStr, player) in moves do
+    match parseMove moveStr with
+    | Some (row, col) ->
+        printfn "\nPlayer %A plays %s" player moveStr
+        gameBoard <- makeMove gameBoard row col player
+        displayBoard gameBoard
+        
+        match checkWinner gameBoard with
+        | Some winner -> 
+            printfn "\n🎉 Player %A wins! 🎉" winner
+        | None when isBoardFull gameBoard -> 
+            printfn "\n🤝 It's a draw! 🤝"
+        | None -> 
+            ()
+    | None -> 
+        printfn "Invalid move!";;
+
+printfn "\n=== Game simulation complete ===";;
+2025-12-08 13:45:34.119 -08:00 [DBG] FSI-INPUT: SendToFsi from api:tic-tac-toe: // Simulate a game to demonstrate it works
+printfn "\n=== Simulating a Tic-Tac-Toe Game ===";;
+
+let mutable gameBoard = createBoard();;
+let moves = [
+    ("A1", X); ("B2", X); ("C3", X)  // X wins diagonally
+];;
+
+printfn "Starting game...";;
+displayBoard gameBoard;;
+
+// Make moves programmatically
+for (moveStr, player) in moves do
+    match parseMove moveStr with
+    | Some (row, col) ->
+        printfn "\nPlayer %A plays %s" player moveStr
+        gameBoard <- makeMove gameBoard row col player
+        displayBoard gameBoard
+        
+        match checkWinner gameBoard with
+        | Some winner -> 
+            printfn "\n🎉 Player %A wins! 🎉" winner
+        | None when isBoardFull gameBoard -> 
+            printfn "\n🤝 It's a draw! 🤝"
+        | None -> 
+            ()
+    | None -> 
+        printfn "Invalid move!";;
+
+printfn "\n=== Game simulation complete ===";;
+2025-12-08 13:45:34.119 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: // Simulate a game to demonstrate it works
+printfn "\n=== Simulating a Tic-Tac-Toe Game ===";;
+
+let mutable gameBoard = createBoard();;
+let moves = [
+    ("A1", X); ("B2", X); ("C3", X)  // X wins diagonally
+];;
+
+printfn "Starting game...";;
+displayBoard gameBoard;;
+
+// Make moves programmatically
+for (moveStr, player) in moves do
+    match parseMove moveStr with
+    | Some (row, col) ->
+        printfn "\nPlayer %A plays %s" player moveStr
+        gameBoard <- makeMove gameBoard row col player
+        displayBoard gameBoard
+        
+        match checkWinner gameBoard with
+        | Some winner -> 
+            printfn "\n🎉 Player %A wins! 🎉" winner
+        | None when isBoardFull gameBoard -> 
+            printfn "\n🤝 It's a draw! 🤝"
+        | None -> 
+            ()
+    | None -> 
+        printfn "Invalid move!";;
+
+printfn "\n=== Game simulation complete ===";;
+2025-12-08 13:45:34.120 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-08 13:45:34.120 -08:00 [DBG] MCP-TOOL: SendFSharpCode succeeded: Code sent to FSI and logged
+2025-12-08 13:45:34.120 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:45:34.120 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:45:34.120 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:34.120 -08:00 [DBG] Connection id "0HNHMK9AVCBPA" completed keep alive response.
+2025-12-08 13:45:34.120 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 2.9589ms
+2025-12-08 13:45:38.187 -08:00 [DBG] Connection id "0HNHMK9AVCBPA" received FIN.
+2025-12-08 13:45:38.188 -08:00 [DBG] Connection id "0HNHMK9AVCBPA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:45:38.188 -08:00 [DBG] Connection id "0HNHMK9AVCBPA" disconnecting.
+2025-12-08 13:45:38.188 -08:00 [DBG] Connection id "0HNHMK9AVCBPA" stopped.
+2025-12-08 13:45:40.556 -08:00 [DBG] Connection id "0HNHMK9AVCBPB" accepted.
+2025-12-08 13:45:40.556 -08:00 [DBG] Connection id "0HNHMK9AVCBPB" started.
+2025-12-08 13:45:40.556 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/mcp - application/json 180
+2025-12-08 13:45:40.556 -08:00 [DBG] 1 candidate(s) found for the request path '/mcp'
+2025-12-08 13:45:40.556 -08:00 [DBG] Request matched endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:40.556 -08:00 [INF] Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:40.556 -08:00 [DBG] Connection id "0HNHMK9AVCBPB", Request id "0HNHMK9AVCBPB:00000001": started reading request body.
+2025-12-08 13:45:40.556 -08:00 [DBG] Connection id "0HNHMK9AVCBPB", Request id "0HNHMK9AVCBPB:00000001": done reading request body.
+2025-12-08 13:45:40.556 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) read JsonRpcRequest message from channel.
+2025-12-08 13:45:40.556 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler called.
+2025-12-08 13:45:40.558 -08:00 [INF] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) method 'tools/call' request handler completed.
+2025-12-08 13:45:40.558 -08:00 [DBG] Server (fsi-mcp-server 1.0.0.0), Client (claude-code 1.0.113) sending message.
+2025-12-08 13:45:40.558 -08:00 [INF] Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+2025-12-08 13:45:40.558 -08:00 [DBG] Connection id "0HNHMK9AVCBPB" completed keep alive response.
+2025-12-08 13:45:40.558 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/mcp - 200 null text/event-stream 1.8538ms
+2025-12-08 13:45:44.615 -08:00 [DBG] Connection id "0HNHMK9AVCBPB" received FIN.
+2025-12-08 13:45:44.615 -08:00 [DBG] Connection id "0HNHMK9AVCBPB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-12-08 13:45:44.615 -08:00 [DBG] Connection id "0HNHMK9AVCBPB" disconnecting.
+2025-12-08 13:45:44.616 -08:00 [DBG] Connection id "0HNHMK9AVCBPB" stopped.
+2025-12-08 13:46:01.989 -08:00 [INF] IdleTimeout of "00:30:00" exceeded. Closing idle session L0n-B40xs6fmdSi-CTm9uA.

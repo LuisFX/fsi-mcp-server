@@ -62,7 +62,7 @@ dotnet fsi scratch.fsx
 
 - **Hybrid Usage**: Supports simultaneous console input and MCP API calls
 - **CLI Compatibility**: Complete drop-in replacement for `fsi.exe`
-- **Event System**: Real-time streaming of FSI input/output via MCP (Server-Sent Events transport)
+- **Event System**: Real-time streaming of FSI input/output via MCP (Streamable HTTP transport)
 - **Multi-source Tracking**: Tracks input sources (console, API, file sync)
 - **Session State**: Maintains persistent session state and event history
 
@@ -77,7 +77,7 @@ The server exposes FSI functionality through MCP tools that can be called by AI 
 - Requires `dotnet fsi` available in PATH
 
 ### Key Dependencies
-- `ModelContextProtocol` (v0.3.0-preview.3): Core MCP functionality
+- `ModelContextProtocol` (v0.5.0-preview.1): Core MCP functionality
 - `ModelContextProtocol.AspNetCore`: ASP.NET Core MCP integration
 - `Microsoft.Extensions.Hosting`: .NET hosting infrastructure
 
@@ -89,7 +89,7 @@ The server exposes FSI functionality through MCP tools that can be called by AI 
 
 ### Network Configuration
 - Default endpoint: `http://0.0.0.0:5020`
-- MCP transport: HTTP SSE
+- MCP transport: Streamable HTTP (NOT deprecated SSE)
 - Current limitation: hardcoded IP/ports (future enhancement needed)
 
 ### Integration Use Cases

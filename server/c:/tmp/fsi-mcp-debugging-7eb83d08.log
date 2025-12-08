@@ -1,0 +1,38 @@
+2025-12-06 06:09:55.152 -08:00 [INF] FSI MCP Server starting with session ID: 7eb83d08
+2025-12-06 06:09:55.385 -08:00 [INF] User profile is available. Using '/Users/luisfx/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-12-06 06:09:55.396 -08:00 [DBG] FSI-START: StartFsi called with 0 args
+2025-12-06 06:09:55.396 -08:00 [DBG] FSI-START: Starting FSI with args: fsi
+2025-12-06 06:09:55.428 -08:00 [DBG] FSI-START: FSI process started with PID 80355
+2025-12-06 06:09:55.429 -08:00 [INF] 🚀 FSI started with input/output interception!
+2025-12-06 06:09:55.429 -08:00 [INF] ⚙️  FSI command: dotnet fsi
+2025-12-06 06:09:55.440 -08:00 [DBG] === CONSOLE STATE DIAGNOSTICS ===
+2025-12-06 06:09:55.440 -08:00 [DBG] Console.IsInputRedirected: false
+2025-12-06 06:09:55.440 -08:00 [DBG] Console.IsOutputRedirected: false
+2025-12-06 06:09:55.440 -08:00 [DBG] Console.IsErrorRedirected: false
+2025-12-06 06:09:55.440 -08:00 [DBG] =================================
+2025-12-06 06:09:55.440 -08:00 [INF] Console producer started
+2025-12-06 06:09:55.441 -08:00 [INF] FSI consumer started
+2025-12-06 06:09:55.441 -08:00 [DBG] CONSOLE-CONSUMER: FSI consumer task started
+2025-12-06 06:09:55.442 -08:00 [DBG] Hosting starting
+2025-12-06 06:09:55.456 -08:00 [DBG] Reading data from file '/Users/luisfx/.aspnet/DataProtection-Keys/key-8d70d154-3b90-4218-9bd9-acba672e9e66.xml'.
+2025-12-06 06:09:55.459 -08:00 [DBG] Reading data from file '/Users/luisfx/.aspnet/DataProtection-Keys/key-ed1872cf-9205-42eb-a89b-8949bf148deb.xml'.
+2025-12-06 06:09:55.460 -08:00 [DBG] Reading data from file '/Users/luisfx/.aspnet/DataProtection-Keys/key-ab58bf3a-969a-47ad-9c00-ed14cefdf424.xml'.
+2025-12-06 06:09:55.461 -08:00 [DBG] Found key {8d70d154-3b90-4218-9bd9-acba672e9e66}.
+2025-12-06 06:09:55.464 -08:00 [DBG] Found key {ed1872cf-9205-42eb-a89b-8949bf148deb}.
+2025-12-06 06:09:55.464 -08:00 [DBG] Found key {ab58bf3a-969a-47ad-9c00-ed14cefdf424}.
+2025-12-06 06:09:55.467 -08:00 [DBG] Considering key {8d70d154-3b90-4218-9bd9-acba672e9e66} with expiration date 2026-01-18 21:41:16Z as default key.
+2025-12-06 06:09:55.467 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-12-06 06:09:55.470 -08:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-12-06 06:09:55.470 -08:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-12-06 06:09:55.471 -08:00 [DBG] Using key {8d70d154-3b90-4218-9bd9-acba672e9e66} as the default key.
+2025-12-06 06:09:55.471 -08:00 [DBG] Key ring with default key {8d70d154-3b90-4218-9bd9-acba672e9e66} was loaded during application startup.
+2025-12-06 06:09:55.477 -08:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-12-06 06:09:55.479 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-12-06 06:09:55.485 -08:00 [INF] Now listening on: http://0.0.0.0:5020
+2025-12-06 06:09:55.485 -08:00 [DBG] Loaded hosting startup assembly fsi-mcp-server
+2025-12-06 06:09:55.486 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 06:09:55.486 -08:00 [INF] Hosting environment: Production
+2025-12-06 06:09:55.486 -08:00 [INF] Content root path: /Users/luisfx/code/luisfx/fsi-mcp-server/server
+2025-12-06 06:09:55.486 -08:00 [DBG] Hosting started
+2025-12-06 06:15:36.533 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:15:36.534 -08:00 [DBG] FSI-STDERR: - Interrupt

@@ -1,0 +1,23 @@
+2025-12-08 13:24:47.044 -08:00 [INF] FSI MCP Server starting with session ID: 18537e61
+2025-12-08 13:24:47.263 -08:00 [DBG] FSI-START: StartFsi called with 2 args
+2025-12-08 13:24:47.264 -08:00 [DBG] FSI-START: Starting FSI with args: fsi --define:DEBUG
+2025-12-08 13:24:47.277 -08:00 [DBG] FSI-START: FSI process started with PID 46034
+2025-12-08 13:24:47.278 -08:00 [INF] 🚀 FSI started with input/output interception!
+2025-12-08 13:24:47.278 -08:00 [INF] ⚙️  FSI command: dotnet fsi --define:DEBUG
+2025-12-08 13:24:47.288 -08:00 [DBG] === CONSOLE STATE DIAGNOSTICS ===
+2025-12-08 13:24:47.288 -08:00 [DBG] Console.IsInputRedirected: false
+2025-12-08 13:24:47.289 -08:00 [DBG] Console.IsOutputRedirected: false
+2025-12-08 13:24:47.289 -08:00 [DBG] Console.IsErrorRedirected: false
+2025-12-08 13:24:47.289 -08:00 [DBG] =================================
+2025-12-08 13:24:47.289 -08:00 [INF] Console producer started
+2025-12-08 13:24:47.290 -08:00 [INF] FSI consumer started
+2025-12-08 13:24:47.290 -08:00 [DBG] CONSOLE-CONSUMER: FSI consumer task started
+2025-12-08 13:24:47.291 -08:00 [DBG] Hosting starting
+2025-12-08 13:24:47.304 -08:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-12-08 13:24:47.305 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-12-08 13:24:47.313 -08:00 [INF] Now listening on: http://0.0.0.0:5020
+2025-12-08 13:24:47.313 -08:00 [DBG] Loaded hosting startup assembly fsi-mcp-server
+2025-12-08 13:24:47.314 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-08 13:24:47.314 -08:00 [INF] Hosting environment: Production
+2025-12-08 13:24:47.314 -08:00 [INF] Content root path: /Users/luisfx/code/luisfx/fsi-mcp-server/server
+2025-12-08 13:24:47.314 -08:00 [DBG] Hosting started

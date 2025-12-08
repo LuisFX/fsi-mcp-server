@@ -1,0 +1,82 @@
+2025-12-06 06:17:27.631 -08:00 [INF] FSI MCP Server starting with session ID: d152af7d
+2025-12-06 06:17:27.829 -08:00 [INF] User profile is available. Using '/Users/luisfx/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-12-06 06:17:27.838 -08:00 [DBG] FSI-START: StartFsi called with 0 args
+2025-12-06 06:17:27.839 -08:00 [DBG] FSI-START: Starting FSI with args: fsi
+2025-12-06 06:17:27.860 -08:00 [DBG] FSI-START: FSI process started with PID 6510
+2025-12-06 06:17:27.862 -08:00 [INF] 🚀 FSI started with input/output interception!
+2025-12-06 06:17:27.862 -08:00 [INF] ⚙️  FSI command: dotnet fsi
+2025-12-06 06:17:27.872 -08:00 [DBG] === CONSOLE STATE DIAGNOSTICS ===
+2025-12-06 06:17:27.872 -08:00 [DBG] Console.IsInputRedirected: false
+2025-12-06 06:17:27.872 -08:00 [DBG] Console.IsOutputRedirected: false
+2025-12-06 06:17:27.872 -08:00 [DBG] Console.IsErrorRedirected: false
+2025-12-06 06:17:27.872 -08:00 [DBG] =================================
+2025-12-06 06:17:27.873 -08:00 [INF] Console producer started
+2025-12-06 06:17:27.873 -08:00 [INF] FSI consumer started
+2025-12-06 06:17:27.873 -08:00 [DBG] CONSOLE-CONSUMER: FSI consumer task started
+2025-12-06 06:17:27.874 -08:00 [DBG] Hosting starting
+2025-12-06 06:17:27.884 -08:00 [DBG] Reading data from file '/Users/luisfx/.aspnet/DataProtection-Keys/key-8d70d154-3b90-4218-9bd9-acba672e9e66.xml'.
+2025-12-06 06:17:27.887 -08:00 [DBG] Reading data from file '/Users/luisfx/.aspnet/DataProtection-Keys/key-ed1872cf-9205-42eb-a89b-8949bf148deb.xml'.
+2025-12-06 06:17:27.888 -08:00 [DBG] Reading data from file '/Users/luisfx/.aspnet/DataProtection-Keys/key-ab58bf3a-969a-47ad-9c00-ed14cefdf424.xml'.
+2025-12-06 06:17:27.889 -08:00 [DBG] Found key {8d70d154-3b90-4218-9bd9-acba672e9e66}.
+2025-12-06 06:17:27.891 -08:00 [DBG] Found key {ed1872cf-9205-42eb-a89b-8949bf148deb}.
+2025-12-06 06:17:27.891 -08:00 [DBG] Found key {ab58bf3a-969a-47ad-9c00-ed14cefdf424}.
+2025-12-06 06:17:27.894 -08:00 [DBG] Considering key {8d70d154-3b90-4218-9bd9-acba672e9e66} with expiration date 2026-01-18 21:41:16Z as default key.
+2025-12-06 06:17:27.894 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-12-06 06:17:27.896 -08:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-12-06 06:17:27.896 -08:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-12-06 06:17:27.897 -08:00 [DBG] Using key {8d70d154-3b90-4218-9bd9-acba672e9e66} as the default key.
+2025-12-06 06:17:27.897 -08:00 [DBG] Key ring with default key {8d70d154-3b90-4218-9bd9-acba672e9e66} was loaded during application startup.
+2025-12-06 06:17:27.903 -08:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-12-06 06:17:27.904 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-12-06 06:17:27.910 -08:00 [INF] Now listening on: http://0.0.0.0:5020
+2025-12-06 06:17:27.910 -08:00 [DBG] Loaded hosting startup assembly fsi-mcp-server
+2025-12-06 06:17:27.910 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 06:17:27.910 -08:00 [INF] Hosting environment: Production
+2025-12-06 06:17:27.910 -08:00 [INF] Content root path: /Users/luisfx/code/luisfx/fsi-mcp-server/server
+2025-12-06 06:17:27.910 -08:00 [DBG] Hosting started
+2025-12-06 06:21:29.272 -08:00 [DBG] CONSOLE-CONSUMER: Reading from input channel...
+2025-12-06 06:21:29.274 -08:00 [DBG] CONSOLE-CONSUMER: Got line from channel: test
+2025-12-06 06:21:29.276 -08:00 [DBG] FSI-INPUT: SendToFsi from console: test
+2025-12-06 06:21:29.279 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: test
+2025-12-06 06:21:29.280 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-06 06:21:31.809 -08:00 [DBG] CONSOLE-CONSUMER: Reading from input channel...
+2025-12-06 06:21:31.809 -08:00 [DBG] CONSOLE-CONSUMER: Got line from channel: ;;
+2025-12-06 06:21:31.809 -08:00 [DBG] FSI-INPUT: SendToFsi from console: ;;
+2025-12-06 06:21:31.809 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: ;;
+2025-12-06 06:21:31.810 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-06 06:21:31.850 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:31.859 -08:00 [DBG] FSI-STDERR:   test
+2025-12-06 06:21:31.859 -08:00 [DBG] FSI-STDERR:   ^^^^
+2025-12-06 06:21:31.859 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:31.859 -08:00 [DBG] FSI-STDERR: /Users/luisfx/code/luisfx/fsi-mcp-server/server/stdin(1,1): error FS0039: The value or constructor 'test' is not defined. Maybe you want one of the following:
+2025-12-06 06:21:31.859 -08:00 [DBG] FSI-STDERR:    Text
+2025-12-06 06:21:31.859 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:33.841 -08:00 [DBG] CONSOLE-CONSUMER: Reading from input channel...
+2025-12-06 06:21:33.841 -08:00 [DBG] CONSOLE-CONSUMER: Got line from channel: clear
+2025-12-06 06:21:33.841 -08:00 [DBG] FSI-INPUT: SendToFsi from console: clear
+2025-12-06 06:21:33.841 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: clear
+2025-12-06 06:21:33.841 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-06 06:21:35.727 -08:00 [DBG] CONSOLE-CONSUMER: Reading from input channel...
+2025-12-06 06:21:35.728 -08:00 [DBG] CONSOLE-CONSUMER: Got line from channel: ;;
+2025-12-06 06:21:35.728 -08:00 [DBG] FSI-INPUT: SendToFsi from console: ;;
+2025-12-06 06:21:35.728 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: ;;
+2025-12-06 06:21:35.728 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-06 06:21:35.731 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:35.733 -08:00 [DBG] FSI-STDERR:   clear
+2025-12-06 06:21:35.733 -08:00 [DBG] FSI-STDERR:   ^^^^^
+2025-12-06 06:21:35.733 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:35.733 -08:00 [DBG] FSI-STDERR: /Users/luisfx/code/luisfx/fsi-mcp-server/server/stdin(3,1): error FS0039: The value or constructor 'clear' is not defined. Maybe you want one of the following:
+2025-12-06 06:21:35.733 -08:00 [DBG] FSI-STDERR:    char
+2025-12-06 06:21:35.733 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:41.570 -08:00 [DBG] CONSOLE-CONSUMER: Reading from input channel...
+2025-12-06 06:21:41.570 -08:00 [DBG] CONSOLE-CONSUMER: Got line from channel: clear();;
+2025-12-06 06:21:41.570 -08:00 [DBG] FSI-INPUT: SendToFsi from console: clear();;
+2025-12-06 06:21:41.570 -08:00 [DBG] FSI-FORWARD: Writing to FSI stdin: clear();;
+2025-12-06 06:21:41.570 -08:00 [DBG] FSI-FORWARD: Flushed stdin
+2025-12-06 06:21:41.575 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:41.576 -08:00 [DBG] FSI-STDERR:   clear();;
+2025-12-06 06:21:41.577 -08:00 [DBG] FSI-STDERR:   ^^^^^
+2025-12-06 06:21:41.577 -08:00 [DBG] FSI-STDERR: 
+2025-12-06 06:21:41.577 -08:00 [DBG] FSI-STDERR: /Users/luisfx/code/luisfx/fsi-mcp-server/server/stdin(5,1): error FS0039: The value or constructor 'clear' is not defined. Maybe you want one of the following:
+2025-12-06 06:21:41.577 -08:00 [DBG] FSI-STDERR:    char
+2025-12-06 06:21:41.577 -08:00 [DBG] FSI-STDERR: 

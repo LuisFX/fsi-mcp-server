@@ -64,7 +64,7 @@ fsi-mcp wraps the standard F# Interactive process while maintaining full CLI com
 │  └──────────┘  └──────────┘  └─────────────────┘          │
 └───────┬─────────────┬─────────────────┬───────────────────┘
         │             │                 │
-        │ stdin/out   │ HTTP/SSE        │ stdin/out
+        │ stdin/out   │ Streamable HTTP │ stdin/out
         │             │ :5020           │
         v             v                 v
 ┌─────────────────────────────────────────────────────────────┐
@@ -150,14 +150,54 @@ Replace Rider's built-in F# Interactive with FSI Server for seamless AI integrat
 
 #### Setting Up Claude Code Integration
 
-Install the mcp server:
+**Prerequisites:**
+1. Make sure the FSI MCP Server is running (see [Basic Usage](#basic-usage))
+2. The server should be accessible at `http://localhost:5020`
 
-native:
-```shell
- claude mcp add --transport sse fsi-server  http://localhost:5020/sse
-```
+**Steps:**
 
-This creates a seamless experience where you can work with F# interactively while Claude assists by executing code, running tests, and maintaining collaborative scripts.
+1. **Start the FSI MCP Server:**
+   ```bash
+   cd /path/to/fsi-mcp-server
+   dotnet run --project server
+   ```
+   
+   You should see:
+   ```
+   🚀 FSI.exe with MCP Server (Session: xxxxxxxx)
+   🛠️  MCP Tools Available:
+      - SendFSharpCode: Execute F# code
+      - LoadFSharpScript: Load .fsx files
+      - GetFsiEventStream: Access FSI resource
+      - GetFsiStatus: Get session info
+   ```
+
+2. **Add the server to Claude Code:**
+   ```bash
+   claude mcp add --transport http fsi-mcp-server http://localhost:5020/mcp
+   ```
+
+3. **Verify the connection:**
+   ```bash
+   claude mcp list
+   ```
+   
+   You should see:
+   ```
+   fsi-mcp-server: http://localhost:5020/mcp (HTTP) - ✓ Connected
+   ```
+
+4. **Use in Claude Code:**
+   - Type `/mcp` in Claude Code to see available tools
+   - The FSI MCP Server tools will be available for use
+
+**Available Tools:**
+- `SendFSharpCode` - Execute F# code in the FSI session
+- `LoadFSharpScript` - Load and execute .fsx files
+- `GetRecentFsiEvents` - Get FSI event history
+- `GetFsiStatus` - Get session information
+
+**Note:** The server must be running for Claude Code to connect. If you see "Failed to connect", make sure the server is running and accessible at `http://localhost:5020/mcp`.
 
 #### Setting Up Claude Desktop Integration
 
@@ -168,7 +208,7 @@ This creates a seamless experience where you can work with F# interactively whil
       "command": "npx",
       "args": [
         "mcp-remote",
-        "http://localhost:5020/sse"
+        "http://localhost:5020/mcp"
       ]
     }
   }
@@ -181,7 +221,7 @@ This creates a seamless experience where you can work with F# interactively whil
 ```json
 "servers": {
     "fsi-mcp": {
-        "url": "http://localhost:5020/sse",
+        "url": "http://localhost:5020/mcp",
         "type": "http"
     }
 }
