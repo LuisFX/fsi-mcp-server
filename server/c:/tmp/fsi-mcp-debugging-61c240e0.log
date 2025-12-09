@@ -1,0 +1,41 @@
+2025-12-08 17:58:57.788 -08:00 [INF] FSI MCP Server starting with session ID: 61c240e0
+2025-12-08 17:58:58.021 -08:00 [DBG] FSI-START: StartFsi called with 2 args
+2025-12-08 17:58:58.023 -08:00 [DBG] FSI-START: Starting FSI with args: fsi --define:DEBUG
+2025-12-08 17:58:58.047 -08:00 [DBG] FSI-START: FSI process started with PID 52398
+2025-12-08 17:58:58.049 -08:00 [INF] 🚀 FSI started with input/output interception!
+2025-12-08 17:58:58.049 -08:00 [INF] ⚙️  FSI command: dotnet fsi --define:DEBUG
+2025-12-08 17:58:58.060 -08:00 [DBG] === CONSOLE STATE DIAGNOSTICS ===
+2025-12-08 17:58:58.060 -08:00 [DBG] Console.IsInputRedirected: false
+2025-12-08 17:58:58.060 -08:00 [DBG] Console.IsOutputRedirected: false
+2025-12-08 17:58:58.061 -08:00 [DBG] Console.IsErrorRedirected: false
+2025-12-08 17:58:58.061 -08:00 [DBG] =================================
+2025-12-08 17:58:58.061 -08:00 [INF] Console producer started
+2025-12-08 17:58:58.062 -08:00 [INF] FSI consumer started
+2025-12-08 17:58:58.062 -08:00 [DBG] CONSOLE-CONSUMER: FSI consumer task started
+2025-12-08 17:58:58.064 -08:00 [DBG] Hosting starting
+2025-12-08 17:58:58.078 -08:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-12-08 17:58:58.080 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-12-08 17:58:58.091 -08:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://0.0.0.0:5020: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)

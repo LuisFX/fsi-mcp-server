@@ -77,3 +77,4 @@ The newer SDK versions should support Streamable HTTP. Need to verify:
 - [MCP Specification - Transports](https://modelcontextprotocol.io/specification/2025-03-26/basic/transports)
 - [TypeScript SDK Server Docs](https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/refs/heads/main/docs/server.md)
 
+
